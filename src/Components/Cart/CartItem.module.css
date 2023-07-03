@@ -1,0 +1,58 @@
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img{
+    width: 15%;
+    object-fit: cover;
+}
+
+.price{
+    color: gold;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+}
+
+.remove-btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.remove-item-btn{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.remove-item-btn:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.btn{
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    padding: 2px 8px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:disabled{
+    opacity: 0.3;
+    cursor: default;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,11 @@
+.container {
+    max-width: 80%;
+    display: grid;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 4fr;
+    }
+}

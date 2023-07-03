@@ -1,0 +1,65 @@
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.filter input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.filter input:checked {
+   background-color: black;
+   color: white;
+   border: 2px solid black;
+}
+
+.filter-holder {
+    position: relative;
+    width: 35px;
+}
+
+
+.label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    width: 35px;
+    height: 35px;
+    font-size: 0.8em;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: black;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 236);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 0.6rem;
+}
+
+.checkmark:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.filter input:checked + .checkmark {
+    background-color: blue;
+    color: white;
+ }
+
+.filter input:checked + .checkmark {
+   background-color: blue;
+   color: white;
+}

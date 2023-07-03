@@ -1,0 +1,28 @@
+.btn {
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    border: none;
+    background-color: rgb(27, 26, 32);
+}
+
+.shopping-cart {
+    color: white;
+    width: 35px;
+    height: 35px;
+}
+
+.item-count {
+    position: absolute;
+    font-size: 0.8rem;
+    top: 75%;
+    right: 0;
+    background-color: gold;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    padding-top: 3px;
+}

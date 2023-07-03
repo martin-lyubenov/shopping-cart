@@ -1,0 +1,79 @@
+.card {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover .button {
+    background-color: rgb(234, 191, 0);
+}
+
+.img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    padding: 0px 20px;
+    position: relative;
+    font-size: 0.8rem;
+}
+
+.title:before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: rgb(234, 191, 0);
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.price {
+    display: block;
+    margin-top: 30px;
+}
+
+.main-price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    border: none;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.free-shipping {
+    position: absolute;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+@media (min-width: 600px) {
+    .title {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 724px) {
+    .title {
+        font-size: 1.2rem;
+    }
+}
